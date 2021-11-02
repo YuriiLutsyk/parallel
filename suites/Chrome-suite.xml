@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="i.ua on chrome">
+    <parameter name="browserType" value="chrome"/>
+    <test name="ErrorTest">
+        <classes>
+            <class name="tests.TestErrorLogin"/>
+        </classes>
+    </test>
+    <test name="LoginTest">
+        <classes>
+            <class name="tests.TestLogin"/>
+        </classes>
+    </test>
+    <test name="SearchTest">
+        <classes>
+            <class name="tests.TestSearch"/>
+        </classes>
+    </test>
+    <test name="SendMailTest">
+        <classes>
+            <class name="tests.TestSendMail"/>
+        </classes>
+    </test>
+    <test name="NoteTest">
+        <classes>
+            <class name="tests.TestNote"/>
+        </classes>
+    </test>
+    <test name="UploadPhotoTest">
+        <classes>
+            <class name="tests.UploadPhotoTest"/>
+        </classes>
+    </test>
+    <test name="TestRadio">
+        <classes>
+            <class name="tests.TestRadio"/>
+        </classes>
+    </test>
+</suite>
